@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1b1b1b;
+    color: #fff;
+    height: 100hv;
+}
+
+.login{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 13%;
+    background: #19A7CE;
+    border: 2px solid teal;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(78, 78, 72);
+}
+
+.login h1{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid tomato;
+}
+
+.login form{
+    padding: 0 45px;
+    box-sizing: border-box;
+
+}
+
+.text-input{
+    margin: 25px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text-input input{
+    width: 100%;
+    height: 30px;
+    border: 2px solid #146C94;
+    border-radius: 5px;
+}
+
+.btn{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #146C94;
+    border-radius: 25px;
+    background-color: #1b1b1b;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 1s ease;
+}
+
+.btn:hover{
+    border: 1px solid #146C94;
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+.password{
+    margin: 20px auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.signup{
+    margin: 25px;
+    height: 30px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.signup a{
+    text-decoration: none;
+    color: #1b1b1b;
+    font-size: 20px;
+    font-weight: 500;
+}
